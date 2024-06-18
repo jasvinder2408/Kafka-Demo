@@ -1,0 +1,1 @@
+C:\kafka_2.12-3.4.0\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic nse-eod-topic --from-beginning

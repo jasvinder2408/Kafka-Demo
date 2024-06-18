@@ -1,0 +1,1 @@
+C:\kafka_2.12-3.4.0\bin\windows\zookeeper-shell.bat localhost:2181
