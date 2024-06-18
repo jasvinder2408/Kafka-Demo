@@ -1,0 +1,31 @@
+
+
+kafka connect
+
+producer
+consumer
+
+broker
+
+
+how to start Kafka broker
+=========================
+
+1. Start Zookeeper
+
+C:\kafka_2.12-3.4.0\bin\windows>zookeeper-server-start.bat ../../config/zookeeper.properties
+
+2. Start the Kafka broker.
+
+C:\kafka_2.12-3.4.0\bin\windows>kafka-server-start.bat ../../config/server.properties
+
+zookeeper: is like a database where kafka beroker stored shared info.
+
+shared system to coordinate between brokers.
+
+Note: Kafka announces in comming days they will remove zookeeper.
+
+Kafka broker is a middleman between producers and consumers, and it plays three primary responsibilities.
+
+
+it says Apache Kafka is a distributed streaming platform.
